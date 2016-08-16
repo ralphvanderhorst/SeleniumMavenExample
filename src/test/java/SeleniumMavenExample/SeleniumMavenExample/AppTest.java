@@ -45,7 +45,7 @@ public class AppTest{
 	  public void test2(){
 		  driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		  String  gettitle = driver.findElement(By.className("entry-title")).getText();
-		  Assert.assertEquals("Selenium webdriver Installationl",driver.findElement(By.className("entry-title")).getText());
+		  Assert.assertEquals("Selenium webdriver Installation",driver.findElement(By.className("entry-title")).getText());
 		  System.out.print(gettitle);
 		  
 		  
